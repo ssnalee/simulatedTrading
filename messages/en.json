@@ -1,0 +1,154 @@
+{
+  "trading": {
+    
+    "login": "Login",
+    "logout": "Logout",
+    "search": {
+      "24high": "24h High",
+      "24low": "24h Low",
+      "24vol": "24h Volume ({ticker})",
+      "searchCoin": "Search for Coin"
+    },
+    "table": {
+      "symbol": "Symbol",
+      "size": "Size",
+      "entryPrice": "Entry Price",
+      "liqPrice": "Liq.Price",
+      "price": "Price",
+      "margin": "Margin",
+      "market": "Market",
+      "limit": "Limit",
+      "tpm": "Take Profit Market",
+      "sm": "Stop Market",
+      "side": "Side",
+      "buy": "Buy",
+      "sell": "Sell",
+      "amount": "Amount",
+      "cancel": "Cancel",
+      "cancelAll": "Cancel All",
+      "all": "All",
+      "stoplimit": "Stop Limit",
+      "hideSymbol": "Hide Other Symbols",
+      "day": "1 Day",
+      "week": "1 Week",
+      "month": "1 Month",
+      "reset": "Reset",
+      "select": "Select",
+      "time": "Time",
+      "type": "Type",
+      "closePosition": "Close All Positions",
+      "tpslPos": "TP/SL for position",
+      "average": "Average",
+      "executed": "Executed",
+      "tc": "Trigger Conditions",
+      "status": "Status",
+      "filled": "Filled",
+      "expired": "Expired",
+      "cpnl": "Closing PnL",
+      "avgcp": "Avg. Close Price",
+      "cv": "Closed Vol.",
+      "closed": "Closed",
+      "long": "Long",
+      "short": "Short",
+      "cross": "Cross",
+      "isolated": "Isolated"
+    },
+    "tab": {
+      "positions": "Positions",
+      "oo": "Open Orders",
+      "oh": "Order History",
+      "th": "Trade History",
+      "ph": "Position History",
+      "soon": "This service is coming soon."
+    },
+    "transact": {
+      "avbl": "Avbl.",
+      "tp": "Take Profit",
+      "sl": "Stop Loss",
+      "cost": "Cost",
+      "max": "Max",
+      "caution01": "Please enter amount.",
+      "caution02": "The minimum order quantity is {no} {ticker}.",
+      "caution03": "You need to order at least {no} USDT.",
+      "caution04": "Invalid TP/SL. Please enter a valid value.",
+      "caution05": "Reducing leverage is not supported in Isolated Margin Mode with open positions.",
+      "mm": "Margin Mode",
+      "al": "Adjust Leverage",
+      "leverage": "Leverage"
+    },
+    "positions": {
+      "tpslep": "TP/SL for entire position",
+      "perp": "Perpetual",
+      "sent01": "You've successfully closed your position.",
+      "sent02": "Amount is required.",
+      "sent03": "Please enter a limit price.",
+      "sent04": "Take-Profit must be higher than the current price ({num} USDT) for Long positions.",
+      "sent05": "Stop-Loss must be lower than the current price ({num} USDT) for Long positions.",
+      "sent06": "Take-Profit must be lower than the current price ({num} USDT) for Short positions.",
+      "sent07": "Stop-Loss must be higher than the current price ({num} USDT) for Short positions.",
+      "sent08": "Stop-Loss must be higher than the liquidation price of {num} USDT for Long positions.",
+      "sent09": "Stop-Loss must be lower than the liquidation price of {num} USDT for Short positions.",
+      "sent10": "Your order has been successfully filled."
+    },
+    "openOrders": {
+      "cancel1": "Are you sure to cancel all?",
+      "cancel2": "Are you sure to cancel all Limit orders?",
+      "cancel3": "Are you sure to cancel all Stop-Limit orders?"
+    },
+    "account": {
+      "balance": "Balance",
+      "unPnl": "Unrealized PNL",
+      "ss": "Start Simulation",
+      "deposit": "Deposit",
+      "rb": "Reset Balance",
+      "tub": "Top Up Balance",
+      "ma": "Max Available:",
+      "ca": "Charge Amount",
+      "startMsg": "Are you ready to begin demo trading?",
+      "resetMsg": "Do you really want to reset your investments?",
+      "resetCaution": "You can only reset if your balance is {num} USDT or less.",
+      "account": "Account"
+    },
+    "title": {
+      "01": "Futures Simulated Trading",
+      "02": "Premium Chart",
+      "03": "Smart Chart"
+    },
+    "common": {
+      "duplicate": "Duplicate log-in detected. Closing the window.",
+      "loginMsg": "Please log in to continue.",
+      "logout": "Log Out",
+      "alert": "Alert",
+      "error": "ERROR",
+      "confirm": "Confirm",
+      "noData": "No Data.",
+      "sts": "Start the Simulator.",
+      "close": "Close"
+    },
+    "orderbook": {
+      "title": "Order Book",
+      "sum": "Sum"
+    },
+    "error": {
+      "1": "An error occurred. <br />Please try again later.",
+      "103": "Margin type is fixed and cannot be changed.",
+      "104": "Insufficient balance. <br /> Please check your available funds.",
+      "105": "No user found. Please log in.",
+      "107": "Invalid quantity: please check the minimum and maximum limits.",
+      "30006": "Invalid TP/SL price. <br />Please check your values and try again.",
+      "30007": "Reducing leverage is not supported in Isolated Margin Mode with open positions."
+    },
+    "liqprice": {
+      "fieldMsg": "Please fill in all the required fields.",
+      "search": "Search",
+      "quantity": "Quantity",
+      "balance": "Balance",
+      "results": "Results",
+      "liqPrice": "Liquidation Price",
+      "caution01": "Your open positions will be taken into consideration when calculating the liquidation price. Unrealized PNL and maintenance margin of your open position  will affect the calculation of liquidation price.",
+      "caution02": "There may be a difference between the estimated and actual liquidation price.",
+      "caution03": "See what the potential risk and reward will be in monetary terms on any given trade. Use our Futures Calculator to establish your potential profit/loss on a future trade.",
+      "calculate": "Calculate"
+    }
+  }
+}
